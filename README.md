@@ -20,11 +20,9 @@ To use this extension, you need to load it into Chrome manually as an "unpacked 
     *   If you have the code as a ZIP file, extract it to a folder on your computer.
     *   If you're using Git, clone the repository:
         ```bash
-        git clone <repository-url> table-scraper-extension
+        git clone https://github.com/VISHESH0932/Settlemint-Assignment-1/ table-scraper-extension 
         cd table-scraper-extension
-        ```
-    (Replace `<repository-url>` with the actual URL if you host it on GitHub/GitLab etc. Otherwise, just ensure you have the `table-scraper-extension` folder with all the files: `manifest.json`, `background.js`, `content.js`, `icons/`, and `test.html`.)
-
+   
 2.  **Open Chrome Extensions Page:**
     *   Open Google Chrome.
     *   Navigate to `chrome://extensions/` in the address bar.
