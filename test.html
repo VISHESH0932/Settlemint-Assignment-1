@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Table Page</title>
+    <style>
+        table { border-collapse: collapse; margin: 20px; }
+        th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+    </style>
+</head>
+<body>
+
+    <h1>My Contact List</h1>
+    <p>This page contains a sample table for the Chrome Scraper Extension test.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>S. No</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Phone Number</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>J Smith</td>
+                <td>23</td>
+                <td>415-243-1699</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>L Campbell</td>
+                <td>45</td>
+                <td>312-892-7524</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>L Gray, Jr.</td>
+                <td>37</td>
+                <td>803-456-9128</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>P McCarthy</td>
+                <td>48</td>
+                <td>916-312-8768</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>P Coldwell "The Coder"</td>
+                <td>49</td>
+                <td>650-467-7126</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>T Wallace</td>
+                <td>37</td>
+                <td>783-213-3478</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>T Count</td>
+                <td>22</td>
+                <td>718-913-4569</td>
+            </tr>
+             <tr>
+                <td>8</td>
+                <td>Someone with <br>a newline</td>
+                <td>30</td>
+                <td>555-0101</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Another Table (should not be scraped)</h2>
+    <table>
+        <thead>
+            <tr><th>Product</th><th>Price</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>Apple</td><td>$1.00</td></tr>
+            <tr><td>Banana</td><td>$0.50</td></tr>
+        </tbody>
+    </table>
+
+</body>
+</html>

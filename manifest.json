@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Table to CSV Scraper",
+  "version": "1.0",
+  "description": "Scrapes the first HTML table on a page and downloads it as CSV.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "downloads"
+  ],
+  "action": {
+    "default_icon": {
+      "16": "icons/scraper.png",
+      "48": "icons/scraper.png"
+    },
+    "default_title": "Scrape Table to CSV"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+     "16": "icons/scraper.png",
+     "48": "icons/scraper.png",
+     "128": "icons/scraper.png"
+  }
+}
